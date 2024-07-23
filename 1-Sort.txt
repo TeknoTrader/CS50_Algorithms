@@ -1,0 +1,23 @@
+sort1 uses: Bubble sort
+
+For executing random50000 it takes 0m5,816s
+For executing sorted50000 it takes 0m0,509s
+
+How do you know?: the bubble sort is the fasted of the three algorithms when it comes to detecting if the list is already sorted,
+and we can clearly see it by the fact that it has Ω(n), so, in the best case scenario, it just take one one cycle to detect the order.
+
+sort2 uses: Merge sort
+
+For executing random50000 it takes 0m0,506s
+
+How do you know?: the merge sort is the fastest when it comes to ordering random numbers, because it has O(n log n), so it is really fast
+and efficient in ordering even numerous lists.
+
+sort3 uses: Selection sort
+
+For the execution of random50000 it takes 0m2,396
+For the execution of soted50000 it takes 0m2,401
+
+How do you know?: as we can see by the tests that I've done, this algorithm has very similar timing in detecting the correct order of the numbers
+that are in random and in already sorted list; this is because of the fact that the selection sort has O(n^2) and Ω(n^2) : so it takes the same amount
+of cycles.
